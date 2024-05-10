@@ -238,13 +238,13 @@ header .hamb, .nav-mobile {
 
 
 
-/* SERVICES SECTION */
+/* nature SECTION */
 
-.services {
+.nature {
     padding: 100px 0;
 }
 
-.services h3 {
+.nature h3 {
     font-size: 1.7rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -253,7 +253,7 @@ header .hamb, .nav-mobile {
     margin-bottom: 40px;
 }
 
-.services .container{
+.nature .container{
     display: grid;
     gap: 32px;
     justify-items: center;
@@ -262,18 +262,18 @@ header .hamb, .nav-mobile {
 
 
 
-.services .card{
+.nature .card{
     max-width: 350px;
     margin: 20px;
 }
 
 
-.services img{
+.nature img{
     transition: .3s transform;
 }
 
 
-.services img:hover{
+.nature img:hover{
     transform: scale(0.9);
 }
 
@@ -495,7 +495,7 @@ footer .end .to-top:is(:focus, :hover){
 
 @media screen and (max-width: 750px){
 
-    .services .container{
+    .nature .container{
         grid-template-columns: 1fr;
     }
 
